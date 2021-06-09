@@ -2,8 +2,15 @@
 %	STAGE DESCRIPTION
 %----------------------------------------------------------------------------------------
 \section*{Scopo dello stage}
-% Personalizzare inserendo lo scopo dello stage, cioè una breve descrizione
-Lo scopo di questo progetto di stage è ... .
 
-Lo studente avrà il compito di ... .
+Lo scopo di questo progetto di stage è dimostrare che è possibile riconoscere un videogiocatore dal suo stile di gioco, utilizzando il videogioco Counter-Strike: Global Offensive.\\
+Per la realizzazione del progetto lo studente utilizzerà come linee guida le metodologie descritte nel paper \href{https://link.springer.com/chapter/10.1007/978-3-030-62974-8_22}{PvP: Profiling Versus Player! Exploiting Gaming Data for Player Recognition}\footnote{Conti M., Tricomi P.P. (2020) PvP: Profiling Versus Player! Exploiting Gaming Data for Player Recognition. In: Susilo W., Deng R.H., Guo F., Li Y., Intan R. (eds) Information Security. 
+		ISC 2020. Lecture Notes in Computer Science, vol 12472. Springer, Cham. \href{https://doi.org/10.1007/978-3-030-62974-8_22}{https://doi.org/10.1007/978-3-030-62974-8\_22}\\},
+		 in cui il riconoscimento è stato dimostrato possibile per il videogioco Dota 2.
+Per il riconoscimento dei giocatori si dovrà creare una rete neurale di tipo Long short-term memory (LSTM), che permetta di classificare correttamente il giocatore in questione in base ai dati forniti alla rete neurale stessa. 
+I dati di input dovranno essere estratti a partire dai replay di partite di un gruppo di giocatori professionisti, forniti in maniera grezza dal proponente.\\
 
+Dopo il preprocessing dei dati e la creazione della rete neurale ci sarà un periodo di perfezionamento, nel quale verranno selezionate le feature e il modello migliore da utilizzare per raggiungere la massima precisione possibile nelle predizioni.
+
+% Lo studente avrà il compito di ... .
+% Il compito dello studente sarà, dopo un periodo di formazione sulle reti neurali profonde, di effettuare la pulizia e la preparazione dei dati, di creare la rete neurale e di allenarla per verificare i risultati.
